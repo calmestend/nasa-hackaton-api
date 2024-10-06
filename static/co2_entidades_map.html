@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e5ee6e23a49ecac276d7d7133adca000 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e5ee6e23a49ecac276d7d7133adca000" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e5ee6e23a49ecac276d7d7133adca000 = L.map(
+                "map_e5ee6e23a49ecac276d7d7133adca000",
+                {
+                    center: [23.6345, -102.5528],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ed020d6ecaa98c5373d7dd45dff1a11 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e5ee6e23a49ecac276d7d7133adca000);
+        
+    
+            var marker_cluster_0cf0f440fae5369cbcd0f29a17494d20 = L.markerClusterGroup(
+                {}
+            );
+            map_e5ee6e23a49ecac276d7d7133adca000.addLayer(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+            var circle_marker_0639ba2caf98c7da714e0ff294a0ab37 = L.circleMarker(
+                [21.88234, -102.2916],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.083518568, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_9dbb06fd4f1f2fc1c89d9f4c2e5160ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f8b67bb531bf6cd871ec6e0462969ef = $(`<div id="html_8f8b67bb531bf6cd871ec6e0462969ef" style="width: 100.0%; height: 100.0%;">Aguascalientes: 10835185.68 toneladas de CO2</div>`)[0];
+                popup_9dbb06fd4f1f2fc1c89d9f4c2e5160ce.setContent(html_8f8b67bb531bf6cd871ec6e0462969ef);
+            
+        
+
+        circle_marker_0639ba2caf98c7da714e0ff294a0ab37.bindPopup(popup_9dbb06fd4f1f2fc1c89d9f4c2e5160ce)
+        ;
+
+        
+    
+    
+            var circle_marker_ff8b07bc8a395adebac774b78d19d7b2 = L.circleMarker(
+                [32.6519, -115.4683],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.617171116, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_bdb2083849d10800acdb323e87a91fc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_142ba0571099801046071c057fc62d8f = $(`<div id="html_142ba0571099801046071c057fc62d8f" style="width: 100.0%; height: 100.0%;">Baja California: 66171711.16 toneladas de CO2</div>`)[0];
+                popup_bdb2083849d10800acdb323e87a91fc1.setContent(html_142ba0571099801046071c057fc62d8f);
+            
+        
+
+        circle_marker_ff8b07bc8a395adebac774b78d19d7b2.bindPopup(popup_bdb2083849d10800acdb323e87a91fc1)
+        ;
+
+        
+    
+    
+            var circle_marker_1e3008fc0caf3a08c0dda79acb7bf746 = L.circleMarker(
+                [24.14437, -110.3005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.458355053, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_9ad750c80cfdd1145a455972c552702b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1e6cc15a57f46e5ae4d927239e460d2 = $(`<div id="html_f1e6cc15a57f46e5ae4d927239e460d2" style="width: 100.0%; height: 100.0%;">Baja California Sur: 4583550.53 toneladas de CO2</div>`)[0];
+                popup_9ad750c80cfdd1145a455972c552702b.setContent(html_f1e6cc15a57f46e5ae4d927239e460d2);
+            
+        
+
+        circle_marker_1e3008fc0caf3a08c0dda79acb7bf746.bindPopup(popup_9ad750c80cfdd1145a455972c552702b)
+        ;
+
+        
+    
+    
+            var circle_marker_5c99e5e62288a4c7270c7b65900933b2 = L.circleMarker(
+                [19.8301, -90.5349],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.144702553, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_7f26352b8e6021308b79b8f9fe615576 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e1b2222419112b947921db72dcb2e35 = $(`<div id="html_8e1b2222419112b947921db72dcb2e35" style="width: 100.0%; height: 100.0%;">Campeche: 11447025.53 toneladas de CO2</div>`)[0];
+                popup_7f26352b8e6021308b79b8f9fe615576.setContent(html_8e1b2222419112b947921db72dcb2e35);
+            
+        
+
+        circle_marker_5c99e5e62288a4c7270c7b65900933b2.bindPopup(popup_7f26352b8e6021308b79b8f9fe615576)
+        ;
+
+        
+    
+    
+            var circle_marker_a4a69eaefceae69f894bd3337f97ad05 = L.circleMarker(
+                [16.75, -93.1167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.327451079, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_b5401b1d122cc9d01cbcfdfd24016d3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_231bf98062e2e14228008929160bcb41 = $(`<div id="html_231bf98062e2e14228008929160bcb41" style="width: 100.0%; height: 100.0%;">Chiapas: 23274510.79 toneladas de CO2</div>`)[0];
+                popup_b5401b1d122cc9d01cbcfdfd24016d3b.setContent(html_231bf98062e2e14228008929160bcb41);
+            
+        
+
+        circle_marker_a4a69eaefceae69f894bd3337f97ad05.bindPopup(popup_b5401b1d122cc9d01cbcfdfd24016d3b)
+        ;
+
+        
+    
+    
+            var circle_marker_b404680f4f91a5305a9994bffdb2ea9f = L.circleMarker(
+                [28.835, -105.9903],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.14884893000000002, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_288bfeec2b7b9727076cff96774cb863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c41b40dbd813b9895ebc75d99aae54ec = $(`<div id="html_c41b40dbd813b9895ebc75d99aae54ec" style="width: 100.0%; height: 100.0%;">Chihuahua: 1488489.3 toneladas de CO2</div>`)[0];
+                popup_288bfeec2b7b9727076cff96774cb863.setContent(html_c41b40dbd813b9895ebc75d99aae54ec);
+            
+        
+
+        circle_marker_b404680f4f91a5305a9994bffdb2ea9f.bindPopup(popup_288bfeec2b7b9727076cff96774cb863)
+        ;
+
+        
+    
+    
+            var circle_marker_ae70a7d9a224eebdea49a4ffc9bbfdc8 = L.circleMarker(
+                [27.0587, -101.7068],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.188273137, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_5cad1b125e62cbc91956e2e7dce54f5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5709ebedebc4ffd6208fa8241d9cf85b = $(`<div id="html_5709ebedebc4ffd6208fa8241d9cf85b" style="width: 100.0%; height: 100.0%;">Coahuila de Zaragoza: 21882731.37 toneladas de CO2</div>`)[0];
+                popup_5cad1b125e62cbc91956e2e7dce54f5e.setContent(html_5709ebedebc4ffd6208fa8241d9cf85b);
+            
+        
+
+        circle_marker_ae70a7d9a224eebdea49a4ffc9bbfdc8.bindPopup(popup_5cad1b125e62cbc91956e2e7dce54f5e)
+        ;
+
+        
+    
+    
+            var circle_marker_4646a1093190f7c25adbb1027ee28ac9 = L.circleMarker(
+                [19.1223, -104.0072],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.411249237, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_cebb059dc547506ea3b080e3651e54e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95611d5f62813207ac46ad55d98f8ab2 = $(`<div id="html_95611d5f62813207ac46ad55d98f8ab2" style="width: 100.0%; height: 100.0%;">Colima: 4112492.37 toneladas de CO2</div>`)[0];
+                popup_cebb059dc547506ea3b080e3651e54e8.setContent(html_95611d5f62813207ac46ad55d98f8ab2);
+            
+        
+
+        circle_marker_4646a1093190f7c25adbb1027ee28ac9.bindPopup(popup_cebb059dc547506ea3b080e3651e54e8)
+        ;
+
+        
+    
+    
+            var circle_marker_733f5efd9d05247d13b98c25b777b8e8 = L.circleMarker(
+                [19.4326, -99.1332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7041372889999999, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_5e6f4432bf407cdea021fb147a0a47a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa90d4d51a3c627db66bd7502caf2f9 = $(`<div id="html_7aa90d4d51a3c627db66bd7502caf2f9" style="width: 100.0%; height: 100.0%;">Distrito Federal: 7041372.89 toneladas de CO2</div>`)[0];
+                popup_5e6f4432bf407cdea021fb147a0a47a9.setContent(html_7aa90d4d51a3c627db66bd7502caf2f9);
+            
+        
+
+        circle_marker_733f5efd9d05247d13b98c25b777b8e8.bindPopup(popup_5e6f4432bf407cdea021fb147a0a47a9)
+        ;
+
+        
+    
+    
+            var circle_marker_336083af77ccef303e213ef85d6ca155 = L.circleMarker(
+                [24.5593, -104.6576],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.044467864, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_fbac941e46b40fc094eb406538695438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_230cd5fc536d9a0fdcedacb0117353e9 = $(`<div id="html_230cd5fc536d9a0fdcedacb0117353e9" style="width: 100.0%; height: 100.0%;">Durango: 444678.64 toneladas de CO2</div>`)[0];
+                popup_fbac941e46b40fc094eb406538695438.setContent(html_230cd5fc536d9a0fdcedacb0117353e9);
+            
+        
+
+        circle_marker_336083af77ccef303e213ef85d6ca155.bindPopup(popup_fbac941e46b40fc094eb406538695438)
+        ;
+
+        
+    
+    
+            var circle_marker_bd2b9a70d8b61792e332af3d0ab14ac3 = L.circleMarker(
+                [21.019, -101.2331],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.138477821, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_105f8fd152623a2b8c65f1e18139d93b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cdc6bf657c1cc23cf7e889e00328f47 = $(`<div id="html_6cdc6bf657c1cc23cf7e889e00328f47" style="width: 100.0%; height: 100.0%;">Guanajuato: 21384778.21 toneladas de CO2</div>`)[0];
+                popup_105f8fd152623a2b8c65f1e18139d93b.setContent(html_6cdc6bf657c1cc23cf7e889e00328f47);
+            
+        
+
+        circle_marker_bd2b9a70d8b61792e332af3d0ab14ac3.bindPopup(popup_105f8fd152623a2b8c65f1e18139d93b)
+        ;
+
+        
+    
+    
+            var circle_marker_1263d8effc488d5d66e2d828f91d3465 = L.circleMarker(
+                [17.4392, -99.5451],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.728751175, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_f8a0ea92c3580cbb6e3e4a3f58a5a53f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_198106c653fe74bebdeb4dcd3a2fd28a = $(`<div id="html_198106c653fe74bebdeb4dcd3a2fd28a" style="width: 100.0%; height: 100.0%;">Guerrero: 57287511.75 toneladas de CO2</div>`)[0];
+                popup_f8a0ea92c3580cbb6e3e4a3f58a5a53f.setContent(html_198106c653fe74bebdeb4dcd3a2fd28a);
+            
+        
+
+        circle_marker_1263d8effc488d5d66e2d828f91d3465.bindPopup(popup_f8a0ea92c3580cbb6e3e4a3f58a5a53f)
+        ;
+
+        
+    
+    
+            var circle_marker_4e0d33b9a09dd8c2cea80fe009a9e0ce = L.circleMarker(
+                [20.0971, -98.7624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.178546378, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_46ed8c59a667c36d715036100f64cb2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3b6f34ece37b40a3dc3b7d433820ea4 = $(`<div id="html_a3b6f34ece37b40a3dc3b7d433820ea4" style="width: 100.0%; height: 100.0%;">Hidalgo: 41785463.78 toneladas de CO2</div>`)[0];
+                popup_46ed8c59a667c36d715036100f64cb2b.setContent(html_a3b6f34ece37b40a3dc3b7d433820ea4);
+            
+        
+
+        circle_marker_4e0d33b9a09dd8c2cea80fe009a9e0ce.bindPopup(popup_46ed8c59a667c36d715036100f64cb2b)
+        ;
+
+        
+    
+    
+            var circle_marker_b2bbd56e30991bfed7c2b657ef4a1fa5 = L.circleMarker(
+                [20.6596, -103.3496],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.670817061, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_46c9613a4ca2bf596f7b6cee10f087cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe64c79e07aca09c1635336f63539c2a = $(`<div id="html_fe64c79e07aca09c1635336f63539c2a" style="width: 100.0%; height: 100.0%;">Jalisco: 6708170.61 toneladas de CO2</div>`)[0];
+                popup_46c9613a4ca2bf596f7b6cee10f087cb.setContent(html_fe64c79e07aca09c1635336f63539c2a);
+            
+        
+
+        circle_marker_b2bbd56e30991bfed7c2b657ef4a1fa5.bindPopup(popup_46c9613a4ca2bf596f7b6cee10f087cb)
+        ;
+
+        
+    
+    
+            var circle_marker_74e6e3c25486534fd0b5ca84a4d9441d = L.circleMarker(
+                [19.325, -99.8442],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.168786624, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_27113c94b8cd5db005727f590a65ab28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4cec8758705a8f31240e0d87f44d6b3 = $(`<div id="html_b4cec8758705a8f31240e0d87f44d6b3" style="width: 100.0%; height: 100.0%;">México: 21687866.24 toneladas de CO2</div>`)[0];
+                popup_27113c94b8cd5db005727f590a65ab28.setContent(html_b4cec8758705a8f31240e0d87f44d6b3);
+            
+        
+
+        circle_marker_74e6e3c25486534fd0b5ca84a4d9441d.bindPopup(popup_27113c94b8cd5db005727f590a65ab28)
+        ;
+
+        
+    
+    
+            var circle_marker_213e8709b8b9fdabb6521665a179b92e = L.circleMarker(
+                [19.5665, -101.7068],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.068158905, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_00d5aa2147907ac07502a7341e329f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f5c8e8139affe752c1a9f3e7ca15cd7 = $(`<div id="html_8f5c8e8139affe752c1a9f3e7ca15cd7" style="width: 100.0%; height: 100.0%;">Michoacán de Ocampo: 681589.05 toneladas de CO2</div>`)[0];
+                popup_00d5aa2147907ac07502a7341e329f35.setContent(html_8f5c8e8139affe752c1a9f3e7ca15cd7);
+            
+        
+
+        circle_marker_213e8709b8b9fdabb6521665a179b92e.bindPopup(popup_00d5aa2147907ac07502a7341e329f35)
+        ;
+
+        
+    
+    
+            var circle_marker_6ec650597bfeb31fe053fe292ce551ab = L.circleMarker(
+                [18.9186, -99.234],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.229451909000001, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_42a703feab804a2d655a1cd642a7d63b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cd30d991a2c91b0aea8bfe960da37dd = $(`<div id="html_9cd30d991a2c91b0aea8bfe960da37dd" style="width: 100.0%; height: 100.0%;">Morelos: 52294519.09 toneladas de CO2</div>`)[0];
+                popup_42a703feab804a2d655a1cd642a7d63b.setContent(html_9cd30d991a2c91b0aea8bfe960da37dd);
+            
+        
+
+        circle_marker_6ec650597bfeb31fe053fe292ce551ab.bindPopup(popup_42a703feab804a2d655a1cd642a7d63b)
+        ;
+
+        
+    
+    
+            var circle_marker_165eb42219302dbe7231175599481927 = L.circleMarker(
+                [21.7514, -105.2286],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.515595828, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_483eb3d0abb07fb668f1addc2392c0f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5046864c87e6af417c2e9c83f12eeda1 = $(`<div id="html_5046864c87e6af417c2e9c83f12eeda1" style="width: 100.0%; height: 100.0%;">Nayarit: 5155958.28 toneladas de CO2</div>`)[0];
+                popup_483eb3d0abb07fb668f1addc2392c0f5.setContent(html_5046864c87e6af417c2e9c83f12eeda1);
+            
+        
+
+        circle_marker_165eb42219302dbe7231175599481927.bindPopup(popup_483eb3d0abb07fb668f1addc2392c0f5)
+        ;
+
+        
+    
+    
+            var circle_marker_c141027ed505a2f49dd8d881152bc3f8 = L.circleMarker(
+                [25.6866, -100.3161],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.948260142, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_adc0e31c389b9866dca11e8730cfa2af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16223cfa4b25252c7ff6189551aaec6d = $(`<div id="html_16223cfa4b25252c7ff6189551aaec6d" style="width: 100.0%; height: 100.0%;">Nuevo León: 9482601.42 toneladas de CO2</div>`)[0];
+                popup_adc0e31c389b9866dca11e8730cfa2af.setContent(html_16223cfa4b25252c7ff6189551aaec6d);
+            
+        
+
+        circle_marker_c141027ed505a2f49dd8d881152bc3f8.bindPopup(popup_adc0e31c389b9866dca11e8730cfa2af)
+        ;
+
+        
+    
+    
+            var circle_marker_062bac614646f5b30e93de7c89e8eff9 = L.circleMarker(
+                [17.0747, -96.7135],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.960060243, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_de9c2236a938d19b13e28f369ba207d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c32e55ac7708a3731e88bee2155a86f = $(`<div id="html_0c32e55ac7708a3731e88bee2155a86f" style="width: 100.0%; height: 100.0%;">Oaxaca: 59600602.43 toneladas de CO2</div>`)[0];
+                popup_de9c2236a938d19b13e28f369ba207d0.setContent(html_0c32e55ac7708a3731e88bee2155a86f);
+            
+        
+
+        circle_marker_062bac614646f5b30e93de7c89e8eff9.bindPopup(popup_de9c2236a938d19b13e28f369ba207d0)
+        ;
+
+        
+    
+    
+            var circle_marker_b8059fbc1b13bdf17f111f379d1d3a96 = L.circleMarker(
+                [19.0413, -98.2063],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.013148369, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_c08d02bb7b1c86b612d9406772ae8a3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fea6f81847aa70c7d6ec17a112f2194 = $(`<div id="html_6fea6f81847aa70c7d6ec17a112f2194" style="width: 100.0%; height: 100.0%;">Puebla: 131483.69 toneladas de CO2</div>`)[0];
+                popup_c08d02bb7b1c86b612d9406772ae8a3a.setContent(html_6fea6f81847aa70c7d6ec17a112f2194);
+            
+        
+
+        circle_marker_b8059fbc1b13bdf17f111f379d1d3a96.bindPopup(popup_c08d02bb7b1c86b612d9406772ae8a3a)
+        ;
+
+        
+    
+    
+            var circle_marker_f1ece4daa853cadc85e06870e369eb76 = L.circleMarker(
+                [20.5888, -100.3899],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.625340132, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_5f420318a071c1015beab8bb38386c11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ab7ee847af9caa2392ab15d71e7ac6f = $(`<div id="html_1ab7ee847af9caa2392ab15d71e7ac6f" style="width: 100.0%; height: 100.0%;">Querétaro: 16253401.32 toneladas de CO2</div>`)[0];
+                popup_5f420318a071c1015beab8bb38386c11.setContent(html_1ab7ee847af9caa2392ab15d71e7ac6f);
+            
+        
+
+        circle_marker_f1ece4daa853cadc85e06870e369eb76.bindPopup(popup_5f420318a071c1015beab8bb38386c11)
+        ;
+
+        
+    
+    
+            var circle_marker_f5432348ea82cfbc2d8f4325e01045e9 = L.circleMarker(
+                [19.1817, -88.3027],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.052132583, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_ad67ea033945fa7eb3512e3335d768c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d36327b455435d286dee3265bf324676 = $(`<div id="html_d36327b455435d286dee3265bf324676" style="width: 100.0%; height: 100.0%;">Quintana Roo: 521325.83 toneladas de CO2</div>`)[0];
+                popup_ad67ea033945fa7eb3512e3335d768c5.setContent(html_d36327b455435d286dee3265bf324676);
+            
+        
+
+        circle_marker_f5432348ea82cfbc2d8f4325e01045e9.bindPopup(popup_ad67ea033945fa7eb3512e3335d768c5)
+        ;
+
+        
+    
+    
+            var circle_marker_33e1264204d9b1e63f9753dc938e26d2 = L.circleMarker(
+                [22.1566, -100.9855],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.05766599, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_ccccfdb5f9f06e784a013e6d3bd18628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd8aa6ea14234c36526b261abeeecafc = $(`<div id="html_fd8aa6ea14234c36526b261abeeecafc" style="width: 100.0%; height: 100.0%;">San Luis Potosí: 10576659.9 toneladas de CO2</div>`)[0];
+                popup_ccccfdb5f9f06e784a013e6d3bd18628.setContent(html_fd8aa6ea14234c36526b261abeeecafc);
+            
+        
+
+        circle_marker_33e1264204d9b1e63f9753dc938e26d2.bindPopup(popup_ccccfdb5f9f06e784a013e6d3bd18628)
+        ;
+
+        
+    
+    
+            var circle_marker_9f9aa2ee2661763f105138983a1df8db = L.circleMarker(
+                [24.8081, -107.3963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.208989975, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_5c28660703e514d1ba5c78749c77287f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_045a1b7f506b7bcfc27bb1524b9cbcb3 = $(`<div id="html_045a1b7f506b7bcfc27bb1524b9cbcb3" style="width: 100.0%; height: 100.0%;">Sinaloa: 42089899.75 toneladas de CO2</div>`)[0];
+                popup_5c28660703e514d1ba5c78749c77287f.setContent(html_045a1b7f506b7bcfc27bb1524b9cbcb3);
+            
+        
+
+        circle_marker_9f9aa2ee2661763f105138983a1df8db.bindPopup(popup_5c28660703e514d1ba5c78749c77287f)
+        ;
+
+        
+    
+    
+            var circle_marker_71b6415471da5820c1a77103c77ed8f7 = L.circleMarker(
+                [29.072967, -110.9559],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.791960854000001, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_300d70b72c7b37adb0fed92815ff1cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ad78fd833dcaab1fcf51419f5d8568d = $(`<div id="html_5ad78fd833dcaab1fcf51419f5d8568d" style="width: 100.0%; height: 100.0%;">Sonora: 67919608.54 toneladas de CO2</div>`)[0];
+                popup_300d70b72c7b37adb0fed92815ff1cb8.setContent(html_5ad78fd833dcaab1fcf51419f5d8568d);
+            
+        
+
+        circle_marker_71b6415471da5820c1a77103c77ed8f7.bindPopup(popup_300d70b72c7b37adb0fed92815ff1cb8)
+        ;
+
+        
+    
+    
+            var circle_marker_8213b9d8ca038b77365a0f621351ef42 = L.circleMarker(
+                [18.0111, -92.9303],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.041974871999999996, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_c16ac0d6a71c555b6df8f87fb6ccfd03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01e63d2d5db45282e42f11b6485439a3 = $(`<div id="html_01e63d2d5db45282e42f11b6485439a3" style="width: 100.0%; height: 100.0%;">Tabasco: 419748.72 toneladas de CO2</div>`)[0];
+                popup_c16ac0d6a71c555b6df8f87fb6ccfd03.setContent(html_01e63d2d5db45282e42f11b6485439a3);
+            
+        
+
+        circle_marker_8213b9d8ca038b77365a0f621351ef42.bindPopup(popup_c16ac0d6a71c555b6df8f87fb6ccfd03)
+        ;
+
+        
+    
+    
+            var circle_marker_bfdab1db58d2b9df8b4f449b7f10cde4 = L.circleMarker(
+                [23.7417, -98.0922],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.361087487, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_49b0531ce7b122100f8dc9c76193262c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a1dfdc2849be3bb63b51860d68ec42c = $(`<div id="html_9a1dfdc2849be3bb63b51860d68ec42c" style="width: 100.0%; height: 100.0%;">Tamaulipas: 63610874.87 toneladas de CO2</div>`)[0];
+                popup_49b0531ce7b122100f8dc9c76193262c.setContent(html_9a1dfdc2849be3bb63b51860d68ec42c);
+            
+        
+
+        circle_marker_bfdab1db58d2b9df8b4f449b7f10cde4.bindPopup(popup_49b0531ce7b122100f8dc9c76193262c)
+        ;
+
+        
+    
+    
+            var circle_marker_bd737e54dde180ffd2e2aff3c461e914 = L.circleMarker(
+                [19.3181, -98.239],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.628402409, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_5b91a484f228cf5736726756fe12f6b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f28a4eaf8ddfbc68ad79b6aca92a045 = $(`<div id="html_8f28a4eaf8ddfbc68ad79b6aca92a045" style="width: 100.0%; height: 100.0%;">Tlaxcala: 6284024.09 toneladas de CO2</div>`)[0];
+                popup_5b91a484f228cf5736726756fe12f6b1.setContent(html_8f28a4eaf8ddfbc68ad79b6aca92a045);
+            
+        
+
+        circle_marker_bd737e54dde180ffd2e2aff3c461e914.bindPopup(popup_5b91a484f228cf5736726756fe12f6b1)
+        ;
+
+        
+    
+    
+            var circle_marker_5ef9e5e545b10b8a3ca0865b128f992c = L.circleMarker(
+                [19.1738, -96.1429],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.191650918, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_4be1d678b88397d6b1209a6f5175bd53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15647a6c2c225736a12430475ffc5057 = $(`<div id="html_15647a6c2c225736a12430475ffc5057" style="width: 100.0%; height: 100.0%;">Veracruz: 1916509.18 toneladas de CO2</div>`)[0];
+                popup_4be1d678b88397d6b1209a6f5175bd53.setContent(html_15647a6c2c225736a12430475ffc5057);
+            
+        
+
+        circle_marker_5ef9e5e545b10b8a3ca0865b128f992c.bindPopup(popup_4be1d678b88397d6b1209a6f5175bd53)
+        ;
+
+        
+    
+    
+            var circle_marker_d8ca698722181aaac1248e8afd495eef = L.circleMarker(
+                [20.9671, -89.6252],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.828632297, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_868ebdc1ee7213a3f332c7c2023be0b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_280cc9bcf412b1607da69f85599eb7ab = $(`<div id="html_280cc9bcf412b1607da69f85599eb7ab" style="width: 100.0%; height: 100.0%;">Yucatán: 8286322.97 toneladas de CO2</div>`)[0];
+                popup_868ebdc1ee7213a3f332c7c2023be0b5.setContent(html_280cc9bcf412b1607da69f85599eb7ab);
+            
+        
+
+        circle_marker_d8ca698722181aaac1248e8afd495eef.bindPopup(popup_868ebdc1ee7213a3f332c7c2023be0b5)
+        ;
+
+        
+    
+    
+            var circle_marker_ce67643e193e2e57904de89b55baa039 = L.circleMarker(
+                [22.7709, -102.5832],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.190577541, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_0cf0f440fae5369cbcd0f29a17494d20);
+        
+    
+        var popup_f0da425f397b77d2a47f86f6c708a2e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66089e2c23ca46837d475c22fa7ea556 = $(`<div id="html_66089e2c23ca46837d475c22fa7ea556" style="width: 100.0%; height: 100.0%;">Zacatecas: 1905775.41 toneladas de CO2</div>`)[0];
+                popup_f0da425f397b77d2a47f86f6c708a2e8.setContent(html_66089e2c23ca46837d475c22fa7ea556);
+            
+        
+
+        circle_marker_ce67643e193e2e57904de89b55baa039.bindPopup(popup_f0da425f397b77d2a47f86f6c708a2e8)
+        ;
+
+        
+    
+</script>
+</html>

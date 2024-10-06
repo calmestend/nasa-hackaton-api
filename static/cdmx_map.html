@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e13ca2db9d791d2c71c45aeef07065da {
+                #map_9c8adb1b3a31f27281ee79c17a54bb76 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,18 +39,18 @@
 <body>
     
     
-            <div class="folium-map" id="map_e13ca2db9d791d2c71c45aeef07065da" ></div>
+            <div class="folium-map" id="map_9c8adb1b3a31f27281ee79c17a54bb76" ></div>
         
 </body>
 <script>
     
     
-            var map_e13ca2db9d791d2c71c45aeef07065da = L.map(
-                "map_e13ca2db9d791d2c71c45aeef07065da",
+            var map_9c8adb1b3a31f27281ee79c17a54bb76 = L.map(
+                "map_9c8adb1b3a31f27281ee79c17a54bb76",
                 {
-                    center: [34.0, -118.0],
+                    center: [19.4326, -99.1332],
                     crs: L.CRS.EPSG3857,
-                    zoom: 6,
+                    zoom: 11,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,16 +60,16 @@
 
         
     
-            var tile_layer_08b0645dd644c6f1ec79fac31ffb91f8 = L.tileLayer(
+            var tile_layer_daba0947d967c76424a2c75b7538340a = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e13ca2db9d791d2c71c45aeef07065da);
+            ).addTo(map_9c8adb1b3a31f27281ee79c17a54bb76);
         
     
-            var tile_layer_1843a2187eed7fbac952d42bbb90b1f2 = L.tileLayer(
-                "https://earth.gov/ghgcenter/api/raster/collections/oco2-mip-co2budget-yeargrid-v1/items/oco2-mip-co2budget-yeargrid-v1-2020/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?assets=ff\u0026color_formula=gamma+r+1.05\u0026colormap_name=purd\u0026rescale=0%2C450",
-                {"attribution": "GHG", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 0.5, "subdomains": "abc", "tms": false}
-            ).addTo(map_e13ca2db9d791d2c71c45aeef07065da);
+            var polygon_e5aa56cbec897c3adcd303cbf97382b4 = L.polygon(
+                [[19.5928, -99.2951], [19.5312, -99.0271], [19.3573, -98.9863], [19.2707, -99.1378], [19.2781, -99.3176], [19.4256, -99.3636], [19.5928, -99.2951]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c8adb1b3a31f27281ee79c17a54bb76);
         
 </script>
 </html>
